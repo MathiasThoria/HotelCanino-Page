@@ -20,10 +20,14 @@ div,button,ul{
     padding: 10px;
 }
 .rightheader-links{
-    color:white;
+    color:white;    
 }
 .rightheader-conteiner, .leftheader-conteiner{
     flex: 1;   
+}
+.rightheader-conteiner{
+    display: flex;
+    justify-content: end;
 }
 a{
     text-decoration: none;       
@@ -47,7 +51,7 @@ a{
 }
 .rightcontent01-conteiner{
     display: flex;  
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 }
 .leftcontent01-conteiner{
@@ -58,10 +62,10 @@ a{
     background-color:burlywood;
     border:none;
     border-radius: 10px;
-    padding: 5px 20px;
+    padding: 15px 25px;
     color: rgb(71, 67, 39);
     font-weight: 600;
-    margin: 5px 0px;
+    margin: 30px 0px;
 }
 .leftcontent01-title{
     font-weight: 1000;
@@ -97,13 +101,14 @@ a{
     margin-top: 5px;
 }
 .photo_item{
-    max-width: 150px;
-    max-height: auto;
+    max-width: auto;
+    max-height: 130px;
     border-radius: 12px;
 }
 .content02-itemConteiner{
+    height: 150px;
     display:flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     margin: 10px; 
@@ -130,4 +135,54 @@ a{
     font-weight: bolder;
     font-size: 25px;
     margin-top: 10px;
+}
+
+/*content04 style*/
+.content04-conteiner{
+    padding: 60px 120px
+}
+.content04-subconteiner{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(206, 99, 56);
+    border-radius: 12px;
+    padding: 60px;
+    color:whitesmoke;
+}
+.leftconteiner04-title{
+    font-size:24px;
+    font-weight: 700;    
+}
+.leftconteniner04-title{
+    font-size:24px;
+    font-weight: 400;
+}
+.leftcontent04-conteiner{
+    flex: 2;
+}
+.rightcontent04-conteiner{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.rightcontent04-button{
+    background-color:burlywood;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: rgb(61, 28, 9);
+    font-weight: 600;
+    margin: 5px 0px;
+    font-size: 24;
+}
+
+/*footer style*/
+.footer{
+    text-align: center;
+    background-color: #47180c;
+    color:whitesmoke;
+    padding: 20px 40px;
 }
